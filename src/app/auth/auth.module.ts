@@ -6,11 +6,13 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpTokenInterceptor } from './interceptors/http-token/http-token.interceptor';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [LoginComponent, RegisterComponent],
   imports: [
     CommonModule,
     AuthRoutingModule,
