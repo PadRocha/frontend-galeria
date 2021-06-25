@@ -8,3 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'front-galeria';
 }
+/**
+ * comentario de prueba
+ * para ver si se guardan bien los cambios
+ * 
+ */
